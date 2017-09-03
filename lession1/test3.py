@@ -12,6 +12,10 @@ temp = 34
 # print 'the temperature is ' + temp  error（不能直接将字符串和数字相加）
 print 'the temperature is ' + `temp`
 
+x,y = 12, 23
+x, y = y,x
+print x, y
+
 # input 会假设用户输入的是合法的python表达式（或多或少有些与repr函数相反的意思），
 # raw_input 会把所有的输入当做原始数据（raw data)，然后将其放入字符串中
 
